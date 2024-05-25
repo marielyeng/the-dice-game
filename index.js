@@ -7,8 +7,8 @@ function diceSetter() {
     firstRandomNumber = Math.floor(Math.random() * 6) + 1;
     secondRandomNumber = Math.floor(Math.random() * 6) + 1;
 
-    document.getElementById("img1").setAttribute("src", `images/dice${firstRandomNumber}.png`)
-    document.getElementById("img2").setAttribute("src", `images/dice${secondRandomNumber}.png`)
+    document.getElementById("img1").setAttribute("src", `/images/dice${firstRandomNumber}.png`)
+    document.getElementById("img2").setAttribute("src", `/images/dice${secondRandomNumber}.png`)
 
     updateScore();
     displayWinner();
